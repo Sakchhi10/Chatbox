@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+html,
+body,
+#root,
+.app,
+.content {
+    height: 100%;
+    width: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+    display: flex;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.app{
+    display: flex;
+
+}
+.content{
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.app {
+  display: flex;
+}
+
+
+.content {
+  flex: 1; 
+  overflow-y: auto; 
+ 
+}
+
+
+@media print{
+    .no-print{
+        display: none;
+    }
+}
+
+
+
+/* .page-top{
+    position: relative;
+    top: 200px;
+} */
+/* .pro-sidebar .pro-menu {
+    
+    padding-bottom: 100% !important;
+}
+.pro-sidebar {
+   
+    transition: width, left, right, 2.3s !important;
+    
+} */
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-item-content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  color: #053B50;
+}
+
+.contmar{
+  margin-top: 8%;
+}
+
+
+
+.sidebar {
+    /* Set your desired width */
+    transition: width 0.3s; /* Add a smooth transition */
+    position: sticky;
+    top: 196px;
+    bottom: 0;
+   
+    
+    z-index: 1;
+    overflow-y: auto; /* Enable scrolling for the sidebar */
+  }
+  
+  /* Styles for hiding the sidebar on mobile */
+  @media (min-width: 200px) and  (max-width: 375px) {
+    .sidebar {
+      width: 100%;
+      position: fixed;
+    top: 77px;
+    bottom: 0;
+    }
+    .page-top{
+     
+       
+        top: 100px !important;
+    }
+
+    .contmar{
+      margin-top: 60%;
+    }
+ 
+    
+  }
+  @media (min-width: 375px) and  (max-width: 425px) {
+    .sidebar {
+      width: 100%;
+      position: fixed;
+    top: 100px;
+    bottom: 0;
+    }
+    .page-top{
+       
+        top: 135px !important;
+    }
+
+    .contmar{
+      margin-top: 30%;
+    }
+ 
+  }
+  @media (min-width: 425px) and  (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      position: fixed;
+    top: 80px;
+    bottom: 0;
+    }
+    .contmar{
+      margin-top: 20%;
+    }
+ 
+   
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .sidebar {
+      width: 100%;
+      position: fixed;
+    top: 88px;
+    bottom: 0;
+
+    }
+   
+    .contmar{
+      margin-top: 18%;
+    }
+    
+    .pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout ul {
+      list-style-type: none;
+      padding: 0px;
+      margin: 0;
+      margin-bottom: auto !important;
+    }
+    
+  }
+  
+  /* Styles for the collapsed sidebar */
+  .sidebar.collapsed {
+    width: 0%; /* Set your desired collapsed width */
+  }
+
+  .pro-sidebar .pro-menu {
+    background-color: #fff !important;
+  }
+  .pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout {
+  
+    display: block !important;
+    flex-direction: row-reverse !important;
+   
+}
+.MuiBox-root{
+    position:"fixed !important"
+
+}
+.css-8cubkq {
+position: fixed !important;
+    width: 100% ;
+    z-index: 1;
+    -webkit-box-pack: justify !important;
+    -webkit-justify-content: space-around !important;
+}
+
+.button4{
+  color: whitesmoke;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #614385  ,  #516395);
+  padding: 10px 10px 10px;
+  border:#01BCB5;
+  border-radius: 25px;
+  
+}
+
+.button3{
+  color: whitesmoke;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #09203F ,   #537895);
+  padding: 10px 10px 10px;
+  border:#01BCB5;
+  border-radius: 25px;
+  
+}
+
+.baccolor{
+  background: linear-gradient(to left, #02AABD  0%, #00CDAC );  
+}
+.css-8cubkq {
+  position: fixed !important;
+  width: 100%;
+  z-index: 1;
+  -webkit-box-pack: justify !important;
+  -webkit-justify-content: space-around !important;
+}
+.css-1bjbsk9{
+  justify-content: space-between !important;
+}
+
+/* .active-menu-item {
+  background-color: blue !important;
+  color: white !important; /* Optional: Change the text color
+} */
+
+.pro-sidebar .pro-menu {
+  padding-top: 10px;
+  padding-bottom: 89px !important;
+}
+
+.text-wrap {
+  white-space: normal;
+}
+
+.css-1kp2mf7-MuiChip-root {
+
+  background-color: #fff !important;
+
+}
+
+.sidebarheight{
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) and  (max-width: 819px) {
+  .pro-sidebar .pro-menu {
+    padding-bottom: 296px !important;
+}
+}
+@media (min-width: 820px) and  (max-width: 1024px) {
+  .pro-sidebar .pro-menu {
+    padding-bottom: 452px !important;
+}
+}

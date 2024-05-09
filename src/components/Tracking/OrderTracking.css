@@ -1,0 +1,76 @@
+/* OrderTracking.css */
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+
+.tracking-container {
+  position: absolute;
+  bottom: 20rem; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%; /* Adjust width as needed */
+  /* Other styles for your tracking container */
+}
+  
+  .tracking-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+  }
+  
+  .step.completed {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+  }
+  
+  .step.active {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .step.inactive {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+  }
+  
+  .step-label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .progress-container {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .order-details {
+    margin-top: 30px;
+  }
+  
+  .order-number {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .order-status {
+    margin-top: 10px;
+  }
+  
