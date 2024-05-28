@@ -28,8 +28,8 @@ function Copyright(props) {
       {...props}
     >
       {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://sakchhichoudhary.vercel.app/">
+       Sakchhi Choudhary
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
