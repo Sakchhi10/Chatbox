@@ -176,7 +176,7 @@ export default function SignInSide() {
           md={7}
           sx={{
             backgroundImage:
-              "url(https://www.sagatraining.ca/wp-content/uploads/2018/10/background-images-for-login-form-8.jpg)",
+              "url(https://thumbs.dreamstime.com/b/security-concept-login-digital-background-pixelated-words-d-render-30468616.jpg)",
             backgroundRepeat: "no-repeat",
             backgroundColor: (t) =>
               t.palette.mode === "light"
