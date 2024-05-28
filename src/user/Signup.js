@@ -203,7 +203,7 @@ export default function SignUp() {
           md={6}
           sx={{
             backgroundImage:
-              "url(https://source.unsplash.com/random?wallpapers)",
+              "url(https://cdn4.vectorstock.com/i/1000x1000/42/83/sign-up-neon-on-a-brick-background-vector-35024283.jpg)",
             backgroundRepeat: "no-repeat",
             backgroundColor: (t) =>
               t.palette.mode === "light"
