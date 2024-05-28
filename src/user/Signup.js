@@ -25,8 +25,8 @@ function Copyright(props) {
       {...props}
     >
       {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
+      <Link color="inherit" href="https://sakchhichoudhary.vercel.app/">
+        Sakchhi Choudhary
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -203,7 +203,7 @@ export default function SignUp() {
           md={6}
           sx={{
             backgroundImage:
-              "url(https://cdn4.vectorstock.com/i/1000x1000/42/83/sign-up-neon-on-a-brick-background-vector-35024283.jpg)",
+              "url(https://blog.hubspot.com/hubfs/sign-up.jpg)",
             backgroundRepeat: "no-repeat",
             backgroundColor: (t) =>
               t.palette.mode === "light"
